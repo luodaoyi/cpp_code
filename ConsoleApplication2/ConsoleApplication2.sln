@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChreatThreadDemo", "ChreatT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadControl1", "ThreadControl1\ThreadControl1.vcxproj", "{7CADE59E-1B3D-4E80-887F-02446B20BE18}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadControl2", "ThreadControl2\ThreadControl2.vcxproj", "{AD836D94-82F1-4A4A-A571-E511CD624989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{7CADE59E-1B3D-4E80-887F-02446B20BE18}.Debug|Win32.Build.0 = Debug|Win32
 		{7CADE59E-1B3D-4E80-887F-02446B20BE18}.Release|Win32.ActiveCfg = Release|Win32
 		{7CADE59E-1B3D-4E80-887F-02446B20BE18}.Release|Win32.Build.0 = Release|Win32
+		{AD836D94-82F1-4A4A-A571-E511CD624989}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD836D94-82F1-4A4A-A571-E511CD624989}.Debug|Win32.Build.0 = Debug|Win32
+		{AD836D94-82F1-4A4A-A571-E511CD624989}.Release|Win32.ActiveCfg = Release|Win32
+		{AD836D94-82F1-4A4A-A571-E511CD624989}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
