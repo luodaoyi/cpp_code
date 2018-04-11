@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadControl1", "ThreadCon
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadControl2", "ThreadControl2\ThreadControl2.vcxproj", "{AD836D94-82F1-4A4A-A571-E511CD624989}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadControl3", "ThreadControl3\ThreadControl3.vcxproj", "{5304C7E5-D05C-49D6-B82B-110A95D8DC04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{AD836D94-82F1-4A4A-A571-E511CD624989}.Debug|Win32.Build.0 = Debug|Win32
 		{AD836D94-82F1-4A4A-A571-E511CD624989}.Release|Win32.ActiveCfg = Release|Win32
 		{AD836D94-82F1-4A4A-A571-E511CD624989}.Release|Win32.Build.0 = Release|Win32
+		{5304C7E5-D05C-49D6-B82B-110A95D8DC04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5304C7E5-D05C-49D6-B82B-110A95D8DC04}.Debug|Win32.Build.0 = Debug|Win32
+		{5304C7E5-D05C-49D6-B82B-110A95D8DC04}.Release|Win32.ActiveCfg = Release|Win32
+		{5304C7E5-D05C-49D6-B82B-110A95D8DC04}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
