@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.vcxproj", "{7A02AFE1-D39F-4A2C-97E8-53DDB9D1DEF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{87CED0FC-0197-41DF-8368-586066796F32}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChreatThreadDemo", "ChreatThreadDemo\ChreatThreadDemo.vcxproj", "{1C5961F3-A4CB-47CD-9887-17F7A7162105}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadControl1", "ThreadControl1\ThreadControl1.vcxproj", "{7CADE59E-1B3D-4E80-887F-02446B20BE18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A02AFE1-D39F-4A2C-97E8-53DDB9D1DEF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A02AFE1-D39F-4A2C-97E8-53DDB9D1DEF3}.Debug|Win32.Build.0 = Debug|Win32
+		{7A02AFE1-D39F-4A2C-97E8-53DDB9D1DEF3}.Release|Win32.ActiveCfg = Release|Win32
+		{7A02AFE1-D39F-4A2C-97E8-53DDB9D1DEF3}.Release|Win32.Build.0 = Release|Win32
+		{87CED0FC-0197-41DF-8368-586066796F32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87CED0FC-0197-41DF-8368-586066796F32}.Debug|Win32.Build.0 = Debug|Win32
+		{87CED0FC-0197-41DF-8368-586066796F32}.Release|Win32.ActiveCfg = Release|Win32
+		{87CED0FC-0197-41DF-8368-586066796F32}.Release|Win32.Build.0 = Release|Win32
+		{1C5961F3-A4CB-47CD-9887-17F7A7162105}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C5961F3-A4CB-47CD-9887-17F7A7162105}.Debug|Win32.Build.0 = Debug|Win32
+		{1C5961F3-A4CB-47CD-9887-17F7A7162105}.Release|Win32.ActiveCfg = Release|Win32
+		{1C5961F3-A4CB-47CD-9887-17F7A7162105}.Release|Win32.Build.0 = Release|Win32
+		{7CADE59E-1B3D-4E80-887F-02446B20BE18}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CADE59E-1B3D-4E80-887F-02446B20BE18}.Debug|Win32.Build.0 = Debug|Win32
+		{7CADE59E-1B3D-4E80-887F-02446B20BE18}.Release|Win32.ActiveCfg = Release|Win32
+		{7CADE59E-1B3D-4E80-887F-02446B20BE18}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
