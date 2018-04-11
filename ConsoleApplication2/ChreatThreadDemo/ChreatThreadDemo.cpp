@@ -14,6 +14,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	DWORD dwPraB = 2;
 	DWORD dwErr = 0;
 	HANDLE hThreadArr[2] = { 0 };
+
+	DWORD dwRetA = 0;
 	hThreadArr[0] = CreateThread(NULL, 0, ThreadProcA, &dwPraA, 0, &dwTid);
 	//hThreadArr[1] = CreateThread(NULL, 0, ThreadProcB, &dwPraB, 0, &dwTid);
 
@@ -24,8 +26,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	if (dwRetFlag == WAIT_FAILED){
 		printf("等待失败!!!\n");
 	}
-	//GetExitCodeThread()
 
+	GetExitCodeThread(hThreadArr[0], &dwRetA);
+	printf("线程A的返回值 %d \n",dwRetA);
 
 	while (1)
 	{
@@ -43,7 +46,7 @@ DWORD WINAPI ThreadProcA(LPVOID lpParameter)
 		printf("A线程正在执行 => %d\n",*(LPDWORD)lpParameter);
 		Sleep(500);
 	}
-	return 0;
+	return 666;
 }
 
 DWORD WINAPI ThreadProcB(LPVOID lpParameter)
