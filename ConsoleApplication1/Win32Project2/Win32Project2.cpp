@@ -7,12 +7,7 @@
 #include <wchar.h>
 
 //窗口过程函数
-INT_PTR CALLBACK DialogProc(
-	HWND hwndDlg,
-	UINT uMsg,
-	WPARAM wParam,
-	LPARAM lParam
-	)
+INT_PTR CALLBACK DialogProc(HWND hwndDlg,UINT uMsg,WPARAM wParam,LPARAM lParam)
 {
 	DWORD pid = 0;
 	WCHAR buff[255] = { 0 };

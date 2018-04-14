@@ -30,10 +30,6 @@ VOID OkPushDown(HWND hList)
 //ListView_SetExtendedListViewStyle(hList, LVS_EX_FULLROWSELECT);//设置控件的风格
 VOID init_list_control(HWND hList)
 {
-
-	
-	
-
 	HANDLE pHand = 0;
 	PWCHAR title_name[] = { L"进程名称", L"PID", L"线程数" };
 	LVCOLUMN column = { 0 };
@@ -82,9 +78,6 @@ VOID init_list_control(HWND hList)
 		ListView_SetItem(hList, &item);
 
 	} while (Process32Next(pHand,&process_info));
-
-
-
 }
 
 
