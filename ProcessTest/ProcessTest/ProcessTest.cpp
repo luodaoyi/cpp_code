@@ -232,12 +232,13 @@ DWORD WINAPI DaemonThread(LPVOID lpParameter)
 
 	//打开pid并且返回句柄
 	HANDLE processHandle = OpenProcess(
-		PROCESS_QUERY_LIMITED_INFORMATION | SYNCHRONIZE,
-		FALSE,
+		PROCESS_ALL_ACCESS,
+		TRUE,
 		processId
 	);
 	if (NULL == processHandle)
 	{
+		MessageBox(NULL, L"打开失败，权限不足！", NULL, MB_OK);
 		OutputDebugString(L"打开失败  mmp \n");
 		return 1;
 	}
@@ -276,6 +277,8 @@ DWORD WINAPI DaemonThread(LPVOID lpParameter)
 			OutputDebugString(buffer);
 			return -1;
 		}
+		CloseHandle(processHandle);
+
 		//创建子进程，判断是否执行成功
 		if (!CreateProcess(processFullPathData, NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
 		{
