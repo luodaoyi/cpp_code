@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "事件", "事件\事件.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "防止躲开", "防止躲开\防止躲开.vcxproj", "{6ADEDCC3-E99E-4527-B1CA-E542460A2B06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreadTest", "ThreadTest\ThreadTest.vcxproj", "{A72A9B18-53E9-4C74-9F35-94E0D3329067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -67,6 +69,14 @@ Global
 		{6ADEDCC3-E99E-4527-B1CA-E542460A2B06}.Release|Win32.Build.0 = Release|Win32
 		{6ADEDCC3-E99E-4527-B1CA-E542460A2B06}.Release|x64.ActiveCfg = Release|x64
 		{6ADEDCC3-E99E-4527-B1CA-E542460A2B06}.Release|x64.Build.0 = Release|x64
+		{A72A9B18-53E9-4C74-9F35-94E0D3329067}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A72A9B18-53E9-4C74-9F35-94E0D3329067}.Debug|Win32.Build.0 = Debug|Win32
+		{A72A9B18-53E9-4C74-9F35-94E0D3329067}.Debug|x64.ActiveCfg = Debug|x64
+		{A72A9B18-53E9-4C74-9F35-94E0D3329067}.Debug|x64.Build.0 = Debug|x64
+		{A72A9B18-53E9-4C74-9F35-94E0D3329067}.Release|Win32.ActiveCfg = Release|Win32
+		{A72A9B18-53E9-4C74-9F35-94E0D3329067}.Release|Win32.Build.0 = Release|Win32
+		{A72A9B18-53E9-4C74-9F35-94E0D3329067}.Release|x64.ActiveCfg = Release|x64
+		{A72A9B18-53E9-4C74-9F35-94E0D3329067}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
