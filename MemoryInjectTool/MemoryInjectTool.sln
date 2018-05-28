@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateWindows", "CreateWind
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsMessage", "WindowsMessage\WindowsMessage.vcxproj", "{AF971354-ACD7-40D5-9D03-6F2012B800BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GDI", "GDI\GDI.vcxproj", "{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{AF971354-ACD7-40D5-9D03-6F2012B800BE}.Release|x64.Build.0 = Release|x64
 		{AF971354-ACD7-40D5-9D03-6F2012B800BE}.Release|x86.ActiveCfg = Release|Win32
 		{AF971354-ACD7-40D5-9D03-6F2012B800BE}.Release|x86.Build.0 = Release|Win32
+		{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}.Debug|x64.ActiveCfg = Debug|x64
+		{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}.Debug|x64.Build.0 = Debug|x64
+		{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}.Debug|x86.Build.0 = Debug|Win32
+		{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}.Release|x64.ActiveCfg = Release|x64
+		{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}.Release|x64.Build.0 = Release|x64
+		{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}.Release|x86.ActiveCfg = Release|Win32
+		{F0904024-B6A2-4AC9-81F1-46DB3A173BE8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
